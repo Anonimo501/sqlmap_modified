@@ -7,6 +7,20 @@ echo ""
 
 opcion="ninguna"
 
+function opcion0
+{
+
+echo ""
+echo -e "\e[33m Ingrese la URL para ver las bases de datos y tablas\e[0m"
+echo ""
+read url
+
+sqlmap -u "$url" --tables --random-agent
+
+   read
+   return 0
+
+}
 
 function opcion1
 {
@@ -108,6 +122,7 @@ echo ""
 
 	echo -e "\e[31m \n	-- MENU -- \e[0m"
 	echo ""
+	echo -e "\t0) Ingrese la URL para ver las bases de datos y tablas"
 	echo -e "\t1) Ingrese la URL para ver las bases de datos"
 	echo -e "\t2) Ingrese la URL y el nombre de la base de datos para listar las tablas"
 	echo -e "\t3) Ver info de la tabla"
@@ -122,6 +137,9 @@ echo -e "\e[33m -------------------------------------------------------------  \
         if [ -z $opcion ] ; then opcion="ninguna" ; fi
 
         case $opcion in
+		"0" )
+                      opcion0
+  		      ;;
 		"1" )
                       opcion1
   		      ;;
