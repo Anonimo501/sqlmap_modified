@@ -12,13 +12,13 @@ Es un simple script que ejecuta sqlmap y ejecuta algunos comandos por detras.
 
 ## Uso
 
-git clone https://github.com/Anonimo501/SambaRelay_V2.git
+git clone https://github.com/Anonimo501/sqlmap_modified.git
 
-cd SambaRelay_V2/
+cd sqlmap_modified/
 
-chmod +x SMB_Relay_v2.sh
+chmod +x sqlmap_modified.sh
 
-./SMB_Relay.sh
+./sqlmap_modified.sh
 
 
 # Referencias
