@@ -8,7 +8,7 @@ Grupo en Telegram https://t.me/Pen7esting
 
 Es un simple script que ejecuta sqlmap y ejecuta algunos comandos por detras.
 
-![1](https://user-images.githubusercontent.com/67207446/148304360-2e1dc75f-a514-4e6f-8013-32ffd9d79e3b.png)
+![1](https://user-images.githubusercontent.com/67207446/149419401-aee45785-dcd1-4a45-bc51-4c2c8d9e38a8.png)
 
 ## Uso
 
