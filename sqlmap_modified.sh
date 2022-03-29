@@ -101,7 +101,7 @@ echo ""
 read tabla
 
 echo ""
-echo -e "\e[33m Ingrese el nombre para listar las columnas  \e[0m"
+echo -e "\e[33m Ingrese el nombre de la tabla  \e[0m"
 echo ""
 read columns
 
