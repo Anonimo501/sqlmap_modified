@@ -7,6 +7,7 @@ Grupo en Telegram https://t.me/Pen7esting
 ## sqlmap_modified
 
 Es un simple script que ejecuta sqlmap y ejecuta algunos comandos por detras.
+He actualizado un poco el programa y ahora acepta cookies.
 
 ![image](https://user-images.githubusercontent.com/67207446/172269100-ad155452-4f04-42ba-99b4-cc9b49239e2f.png)
 
